@@ -148,7 +148,7 @@ const Home = () => {
             <img src="/assets/images/logo_kgic.png" alt="KGIC" />
 
             <div className="logo-text">
-              <div className="name">King George Inter College</div>
+              <div className="name">King George School</div>
 
               <div className="tagline">
                 Chinhat · Barabanki · Dewa Road, Lucknow
@@ -335,7 +335,7 @@ const Home = () => {
               </h2>
 
               <p className="para">
-                King George Inter College is dedicated to providing quality
+                King George School is dedicated to providing quality
                 education, strong values, and a nurturing environment.
               </p>
 
@@ -593,7 +593,7 @@ const Home = () => {
             <div className="tag">Blog & News</div>
 
             <h2 className="t1">
-              Welcome to <span>KGIC Blog</span>
+              Welcome to <span>KGS Blog</span>
             </h2>
 
             <p className="sub">
@@ -656,7 +656,7 @@ const Home = () => {
 
       {/* CTA */}
       <div className="cta">
-        <h2>Ready to Join King George Inter College?</h2>
+        <h2>Ready to Join King George School?</h2>
 
         <p>Admissions open for 2025–26 across all campuses.</p>
 
@@ -854,7 +854,7 @@ const Home = () => {
         </div>
 
         <div className="ft-bot">
-          <p>Copyright 2026 KGIC. All Rights Reserved</p>
+          <p>Copyright 2026 KGS. All Rights Reserved</p>
 
           <div className="socials">
             <a href="/" className="soc">

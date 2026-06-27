@@ -101,7 +101,7 @@ const Contact = () => {
             <img src="/assets/images/logo_kgic.png" alt="KGIC Logo" />
 
             <div className="logo-text">
-              <div className="name">King George Inter College</div>
+              <div className="name">King George School</div>
 
               <div className="tagline">
                 Chinhat · Barabanki · Dewa Road, Lucknow
@@ -175,7 +175,7 @@ const Contact = () => {
       <div className="pg-hero">
         <h1>Contact Us</h1>
 
-        <p>King George Inter College Contact Information</p>
+        <p>King George School Contact Information</p>
 
         {/* <div className="bc">
           <Link to="/">Home</Link>
@@ -401,7 +401,7 @@ const Contact = () => {
         {/* MAP */}
         <div className="kgic-map">
           <iframe
-            title="King George Inter College Location"
+            title="King George School Location"
             src="https://maps.google.com/maps?q=King%20George%20Inter%20College%20Prembagh%20Chinhat%20Lucknow%20226028&t=&z=16&ie=UTF8&iwloc=&output=embed"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -530,7 +530,7 @@ const Contact = () => {
         {/* FOOTER BOTTOM */}
         <div className="ft-bot">
           <p>
-            Copyright 2026 KGIC. All Rights Reserved. | Design & Developed by{" "}
+            Copyright 2026 KGS. All Rights Reserved. | Design & Developed by{" "}
             <a
               href="https://www.globalhorizoninfotech.com/"
               target="_blank"

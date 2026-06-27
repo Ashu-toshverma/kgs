@@ -129,7 +129,7 @@ const Academic = () => {
             <img src="/assets/images/logo_kgic.png" alt="KGIC Logo" />
 
             <div className="logo-text">
-              <div className="name">King George Inter College</div>
+              <div className="name">King George School</div>
 
               <div className="tagline">
                 Chinhat · Barabanki · Dewa Road, Lucknow
@@ -203,7 +203,7 @@ const Academic = () => {
       <div className="pg-hero">
         <h1>Our Academic</h1>
 
-        <p>Academic Excellence at King George Inter College</p>
+        <p>Academic Excellence at King George School</p>
 
         {/* <div className="bc">
           <Link to="/">Home</Link>
@@ -220,11 +220,11 @@ const Academic = () => {
               <div className="tag">Our Academic</div>
 
               <h2 className="t1">
-                Academic Excellence <span>at KGIC</span>
+                Academic Excellence <span>at KGS</span>
               </h2>
 
               <p className="para">
-                King George Inter College is committed to holistic education,
+                King George School is committed to holistic education,
                 blending academics, discipline, and values to nurture confident
                 learners.
               </p>
@@ -232,7 +232,7 @@ const Academic = () => {
               <h3 className="mini-title">A Tradition of Quality Education</h3>
 
               <p className="para">
-                At King George Inter College, we focus on academic excellence
+                At King George School, we focus on academic excellence
                 through structured curriculum, experienced faculty, and
                 student-centric teaching methods.
               </p>
@@ -516,7 +516,7 @@ const Academic = () => {
 
         <div className="ft-bot">
           <p>
-            Copyright 2026 KGIC. All Rights Reserved | Design & Developed by{" "}
+            Copyright 2026 KGS. All Rights Reserved | Design & Developed by{" "}
             <a
               href="https://www.globalhorizoninfotech.com/"
               target="_blank"

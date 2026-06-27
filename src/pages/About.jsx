@@ -128,7 +128,7 @@ const About = () => {
             <img src="/assets/images/logo_kgic.png" alt="KGIC Logo" />
 
             <div className="logo-text">
-              <div className="name">King George Inter College</div>
+              <div className="name">King George School</div>
 
               <div className="tagline">
                 Chinhat · Barabanki · Dewa Road, Lucknow
@@ -136,7 +136,7 @@ const About = () => {
             </div>
           </Link>
 
-            <ul className="nav-menu">
+          <ul className="nav-menu">
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
@@ -200,11 +200,10 @@ const About = () => {
 
       {/* HERO */}
       <div className="pg-hero">
-        <h1>About KGIC</h1>
+        <h1>About KGS</h1>
 
         <p>
-          King George Inter College — Quality Education, Strong Values, Holistic
-          Growth
+          King George School — Quality Education, Strong Values, Holistic Growth
         </p>
       </div>
 
@@ -215,7 +214,7 @@ const About = () => {
             <img
               src="/assets/images/kgic_e5.jpeg"
               className="img-r-lg"
-              alt="About KGIC"
+              alt="About KGS"
             />
 
             <div className="about-badge">
@@ -233,13 +232,13 @@ const About = () => {
             <div className="tag">Who We Are</div>
 
             <h2 className="t1">
-              King George <span>Inter College</span>
+              King George <span>School</span>
             </h2>
 
             <p>
-              King George Inter College is dedicated to providing quality
-              education, strong values, and a nurturing environment that
-              supports students' academic and personal growth.
+              King George School is dedicated to providing quality education,
+              strong values, and a nurturing environment that supports students'
+              academic and personal growth.
             </p>
 
             <div className="mission-box">
@@ -374,7 +373,13 @@ const About = () => {
                 <textarea placeholder="Write your message here..." />
               </div>
 
-              <button className="btn btn-r">
+              <button
+                className="btn btn-r"
+                style={{
+                  width: "100%",
+                  justifyContent: "center",
+                }}
+              >
                 <FaPaperPlane />
                 Submit Enquiry
               </button>
@@ -445,7 +450,7 @@ const About = () => {
         </div>
 
         <div className="ft-bot">
-          <p>Copyright 2026 KGIC. All Rights Reserved.</p>
+          <p>Copyright 2026 KGS. All Rights Reserved.</p>
         </div>
       </footer>
 

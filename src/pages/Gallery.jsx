@@ -169,7 +169,7 @@ const Gallery = () => {
             <img src="/assets/images/logo_kgic.png" alt="KGIC" />
 
             <div className="logo-text">
-              <div className="name">King George Inter College</div>
+              <div className="name">King George School</div>
 
               <div className="tagline">
                 Chinhat · Barabanki · Dewa Road, Lucknow
@@ -262,7 +262,7 @@ const Gallery = () => {
             <div className="tag">Photo Gallery</div>
 
             <h2 className="t1">
-              KGIC <span>Gallery</span>
+              KGS <span>Gallery</span>
             </h2>
           </div>
 
@@ -490,7 +490,7 @@ const Gallery = () => {
 
         <div className="ft-bot">
           <p>
-            Copyright 2026 KGIC. All Rights Reserved | Design & Developed by
+            Copyright 2026 KGS. All Rights Reserved | Design & Developed by
             <a
               href="https://www.globalhorizoninfotech.com/"
               target="_blank"
