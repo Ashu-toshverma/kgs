@@ -8,13 +8,10 @@
 
 /* HERO */
 .pg-hero {
-  background: linear-gradient(
-      90deg,
-      rgba(80, 0, 0, 0.85),
-      rgba(80, 0, 0, 0.6)
-    ),
+  background:
+    linear-gradient(90deg, rgba(80, 0, 0, 0.85), rgba(80, 0, 0, 0.6)),
     url("https://images.unsplash.com/photo-1509062522246-3755977927d7");
-    /* url("/assets/images/carousel-school-entry.png");
+  /* url("/assets/images/carousel-school-entry.png");
      */
 
   background-size: cover;
@@ -85,7 +82,7 @@
   align-items: center;
   justify-content: center;
 
-  background: var( #f8e7e7);
+  background: var(#f8e7e7);
   color: var(--red);
 
   padding: 8px 18px;
@@ -111,7 +108,6 @@
 .t1 span {
   color: var(--red);
 }
-
 
 /* CONTACT GRID */
 .contact-grid {
@@ -410,6 +406,11 @@ footer {
 .ft-bot a {
   color: var(--yellow);
   text-decoration: none;
+}
+.admission-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .socials {

@@ -193,18 +193,12 @@ const Contact = () => {
                 <FaPhone />
               </div>
 
-              <div>
+              <div className="admission-contact">
                 <h4>Admission Contact</h4>
 
-                <span>
-                  <FaPhone /> +91 9214010108
-                </span>
-                <span>
-                  <FaPhone /> +91 9454433180
-                </span>
-                <span>
-                  <FaPhone /> +91 8468005089
-                </span>
+                <span>+91 9214010108</span>
+                <span>+91 9454433180</span>
+                <span>+91 8468005089</span>
               </div>
             </div>
 
