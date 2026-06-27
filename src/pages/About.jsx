@@ -61,19 +61,19 @@ const transportFeatures = [
 const socialLinks = [
   {
     icon: <FaFacebookF />,
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/groups/224215619157129/?ref=share_group_link&rdid=tarfVPzDpkjCdQ4o&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F18kz3qNvqd%2F%3Fref%3D1#",
   },
   {
     icon: <FaInstagram />,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/king_george___school?igsh=eWdoOG5yYm00b20y",
   },
   {
     icon: <FaTwitter />,
-    link: "https://twitter.com",
+    link: "#",
   },
   {
     icon: <FaYoutube />,
-    link: "https://youtube.com",
+    link: "#",
   },
 ];
 
@@ -93,23 +93,25 @@ const About = () => {
         <div className="topbar-inner">
           <div className="topbar-left">
             <span>
-              <FaPhone /> +91 81760 01454
+              <FaPhone /> +91 9214010108
+            </span>
+            <span>
+              <FaPhone /> +91 9454433180
+            </span>
+            <span>
+              <FaPhone /> +91 8468005089
             </span>
 
             <span>
-              <FaEnvelope /> kgiclko@gmail.com
+              <FaEnvelope /> kinggeorgeschool01@gmail.com
             </span>
 
             <span>
-              <FaMapMarkerAlt /> Chinhat · Barabanki · Dewa Road
+              <FaMapMarkerAlt /> GP Bhawan BR Dubey Enclave near Telco , Lucknow
             </span>
           </div>
 
           <div className="topbar-right">
-            <a href="/assets/images/props.pdf" target="_blank" rel="noreferrer">
-              <FaDownload /> Prospectus
-            </a>
-
             <a
               href="/assets/images/aadmin.pdf"
               target="_blank"
@@ -131,7 +133,7 @@ const About = () => {
               <div className="name">King George School</div>
 
               <div className="tagline">
-                Chinhat · Barabanki · Dewa Road, Lucknow
+                GP Bhawan BR Dubey Enclave near Telco , Lucknow
               </div>
             </div>
           </Link>
@@ -156,18 +158,6 @@ const About = () => {
             <li>
               <NavLink to="/contact">Contact Us</NavLink>
             </li>
-
-            <li>
-              <a
-                href="/assets/images/props.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="nav-cta"
-              >
-                <FaDownload />
-                Prospectus
-              </a>
-            </li>
           </ul>
 
           <button className="hamburger" onClick={() => setMenuOpen(true)}>
@@ -187,15 +177,6 @@ const About = () => {
         <Link to="/academic">Academic</Link>
         <Link to="/gallery">Gallery</Link>
         <Link to="/contact">Contact Us</Link>
-
-        <a
-          href="/assets/images/props.pdf"
-          target="_blank"
-          rel="noreferrer"
-          className="mob-prospectus"
-        >
-          ⬇️ Download Prospectus
-        </a>
       </div>
 
       {/* HERO */}
@@ -420,13 +401,15 @@ const About = () => {
             <h4 className="ft-h">Information</h4>
 
             <div className="ft-ci">
-              <FaPhone />
-              <span>+91 81760 01454</span>
+              <span>
+                <FaPhone /> +91 9214010108, <FaPhone /> +91 9454433180,{" "}
+                <FaPhone /> +91 8468005089
+              </span>
             </div>
 
             <div className="ft-ci">
               <FaEnvelope />
-              <span>kgiclko@gmail.com</span>
+              <span>kinggeorgeschool01@gmail.com</span>
             </div>
           </div>
 

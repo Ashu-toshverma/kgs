@@ -129,27 +129,27 @@ const Gallery = () => {
         <div className="topbar-inner">
           <div className="topbar-left">
             <span>
-              <FaPhone />
-              +91 81760 01454
+              <FaPhone /> +91 9214010108
+            </span>
+            <span>
+              <FaPhone /> +91 9454433180
+            </span>
+            <span>
+              <FaPhone /> +91 8468005089
             </span>
 
             <span>
               <FaEnvelope />
-              kgiclko@gmail.com
+              kinggeorgeschool01@gmail.com
             </span>
 
             <span>
               <FaMapMarkerAlt />
-              Chinhat · Barabanki · Dewa Road
+              GP Bhawan BR Dubey Enclave near Telco , Lucknow
             </span>
           </div>
 
           <div className="topbar-right">
-            <a href="/assets/images/props.pdf" target="_blank" rel="noreferrer">
-              <FaDownload />
-              Prospectus
-            </a>
-
             <a
               href="/assets/images/aadmin.pdf"
               target="_blank"
@@ -172,7 +172,7 @@ const Gallery = () => {
               <div className="name">King George School</div>
 
               <div className="tagline">
-                Chinhat · Barabanki · Dewa Road, Lucknow
+                GP Bhawan BR Dubey Enclave near Telco , Lucknow
               </div>
             </div>
           </Link>
@@ -197,18 +197,6 @@ const Gallery = () => {
             <li>
               <NavLink to="/contact">Contact Us</NavLink>
             </li>
-
-            <li>
-              <a
-                href="/assets/images/props.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="nav-cta"
-              >
-                <FaDownload />
-                Prospectus
-              </a>
-            </li>
           </ul>
 
           <button
@@ -231,15 +219,6 @@ const Gallery = () => {
         <Link to="/academic">Academic</Link>
         <Link to="/gallery">Gallery</Link>
         <Link to="/contact">Contact Us</Link>
-
-        <a
-          href="/assets/images/props.pdf"
-          target="_blank"
-          rel="noreferrer"
-          className="mob-download"
-        >
-          Download Prospectus
-        </a>
       </div>
 
       {/* HERO */}
@@ -453,13 +432,15 @@ const Gallery = () => {
             <h4 className="ft-h">Information</h4>
 
             <div className="ft-ci">
-              <FaPhone />
-              <span>+91 81760 01454</span>
+              <span>
+                <FaPhone /> +91 9214010108, <FaPhone /> +91 9454433180,{" "}
+                <FaPhone /> +91 8468005089
+              </span>
             </div>
 
             <div className="ft-ci">
               <FaEnvelope />
-              <span>kgiclko@gmail.com</span>
+              <span>kinggeorgeschool01@gmail.com</span>
             </div>
           </div>
 
@@ -473,18 +454,6 @@ const Gallery = () => {
             </div>
 
             <h4 className="ft-h mt">Download</h4>
-
-            <div className="ft-ci">
-              <FaFileAlt />
-
-              <a
-                href="/assets/images/props.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Prospectus
-              </a>
-            </div>
           </div>
         </div>
 
@@ -542,7 +511,7 @@ const Gallery = () => {
 
       {/* WHATSAPP */}
       <a
-        href="https://wa.me/918176001454"
+        href="https://wa.me/918707710161"
         target="_blank"
         rel="noreferrer"
         className="wa"

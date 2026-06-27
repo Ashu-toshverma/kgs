@@ -40,11 +40,11 @@ const footerGallery = [
 const socialLinks = [
   {
     icon: <FaFacebookF />,
-    link: "#",
+    link: "https://www.facebook.com/groups/224215619157129/?ref=share_group_link&rdid=tarfVPzDpkjCdQ4o&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F18kz3qNvqd%2F%3Fref%3D1#",
   },
   {
     icon: <FaInstagram />,
-    link: "#",
+    link: "https://www.instagram.com/king_george___school?igsh=eWdoOG5yYm00b20y",
   },
   {
     icon: <FaTwitter />,
@@ -66,23 +66,25 @@ const Contact = () => {
         <div className="topbar-inner">
           <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
             <span>
-              <FaPhone /> +91 81760 01454
+              <FaPhone /> +91 9214010108
+            </span>
+            <span>
+              <FaPhone /> +91 9454433180
+            </span>
+            <span>
+              <FaPhone /> +91 8468005089
             </span>
 
             <span>
-              <FaEnvelope /> kgiclko@gmail.com
+              <FaEnvelope /> kinggeorgeschool01@gmail.com
             </span>
 
             <span>
-              <FaMapMarkerAlt /> Chinhat · Barabanki · Dewa Road
+              <FaMapMarkerAlt /> GP Bhawan BR Dubey Enclave near Telco , Lucknow
             </span>
           </div>
 
           <div className="topbar-right">
-            <a href="/assets/images/props.pdf" target="_blank" rel="noreferrer">
-              <FaDownload /> Prospectus
-            </a>
-
             <a
               href="/assets/images/aadmin.pdf"
               target="_blank"
@@ -104,12 +106,12 @@ const Contact = () => {
               <div className="name">King George School</div>
 
               <div className="tagline">
-                Chinhat · Barabanki · Dewa Road, Lucknow
+                GP Bhawan BR Dubey Enclave near Telco , Lucknow
               </div>
             </div>
           </Link>
 
-              <ul className="nav-menu">
+          <ul className="nav-menu">
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
@@ -128,18 +130,6 @@ const Contact = () => {
 
             <li>
               <NavLink to="/contact">Contact Us</NavLink>
-            </li>
-
-            <li>
-              <a
-                href="/assets/images/props.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="nav-cta"
-              >
-                <FaDownload />
-                Prospectus
-              </a>
             </li>
           </ul>
 
@@ -160,15 +150,6 @@ const Contact = () => {
         <Link to="/academic">Academic</Link>
         <Link to="/gallery">Gallery</Link>
         <Link to="/contact">Contact Us</Link>
-
-        <a
-          href="/assets/images/props.pdf"
-          target="_blank"
-          rel="noreferrer"
-          className="mob-prospectus"
-        >
-          ⬇️ Download Prospectus
-        </a>
       </div>
 
       {/* HERO */}
@@ -203,33 +184,9 @@ const Contact = () => {
               </div>
 
               <div>
-                <h4>Head Office</h4>
+                <h4>King George School</h4>
 
-                <p>1, Prembagh, Matiyari, Chinhat, Lucknow, UP 226028</p>
-              </div>
-            </div>
-
-            <div className="c-item">
-              <div className="c-icon">
-                <FaMapMarkerAlt />
-              </div>
-
-              <div>
-                <h4>Barabanki Branch</h4>
-
-                <p>2, Raj Kamal Cinema Hall Road, Kamaria Bagh, Barabanki</p>
-              </div>
-            </div>
-
-            <div className="c-item">
-              <div className="c-icon">
-                <FaMapMarkerAlt />
-              </div>
-
-              <div>
-                <h4>Dewa Road Branch</h4>
-
-                <p>3, B.R. Dubey Enclave, Dewa Road, Lucknow</p>
+                <p>GP Bhawan BR Dubey Enclave near Telco , Lucknow</p>
               </div>
             </div>
 
@@ -241,13 +198,15 @@ const Contact = () => {
               <div>
                 <h4>Admission Contact</h4>
 
-                <p>
-                  +91 81760 01454
-                  <br />
-                  +91 81760 01455
-                  <br />
-                  +91 81760 01456
-                </p>
+                <span>
+                  <FaPhone /> +91 9214010108
+                </span>
+                <span>
+                  <FaPhone /> +91 9454433180
+                </span>
+                <span>
+                  <FaPhone /> +91 8468005089
+                </span>
               </div>
             </div>
 
@@ -259,19 +218,7 @@ const Contact = () => {
               <div>
                 <h4>Email</h4>
 
-                <p>kgiclko@gmail.com</p>
-              </div>
-            </div>
-
-            <div className="c-item">
-              <div className="c-icon">
-                <FaGlobe />
-              </div>
-
-              <div>
-                <h4>Website</h4>
-
-                <p>www.kgicschool.org.in</p>
+                <p>kinggeorgeschool01@gmail.com</p>
               </div>
             </div>
 
@@ -283,19 +230,6 @@ const Contact = () => {
                 flexWrap: "wrap",
               }}
             >
-              <a
-                href="/assets/images/props.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-r"
-                style={{
-                  fontSize: "13px",
-                  padding: "10px 18px",
-                }}
-              >
-                <FaFileAlt /> Download Prospectus
-              </a>
-
               <a
                 href="/assets/images/aadmin.pdf"
                 target="_blank"
@@ -402,7 +336,7 @@ const Contact = () => {
         <div className="kgic-map">
           <iframe
             title="King George School Location"
-            src="https://maps.google.com/maps?q=King%20George%20Inter%20College%20Prembagh%20Chinhat%20Lucknow%20226028&t=&z=16&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?q=King%20George%20School%20GP%20Bhawan%20BR%20Dubey%20Enclave%20Near%20Telco%20Dewa%20Road%20Lucknow%20226028&t=&z=16&ie=UTF8&iwloc=&output=embed"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
@@ -431,7 +365,7 @@ const Contact = () => {
                   marginRight: "6px",
                 }}
               />
-              Behind Chinhat Cold Storage, Prembagh, Chinhat, Lucknow, UP 226028
+              GP Bhawan BR Dubey Enclave near Telco , Lucknow
             </p>
           </div>
 
@@ -457,29 +391,19 @@ const Contact = () => {
 
             <div className="ft-ci">
               <FaMapMarkerAlt />
+              <span>GP Bhawan BR Dubey Enclave near Telco , Lucknow</span>
+            </div>
+
+            <div className="ft-ci">
               <span>
-                Behind Chinhat Cold Storage, Prembagh, Chinhat, Lucknow 226028
+                <FaPhone /> +91 9214010108, <FaPhone /> +91 9454433180,{" "}
+                <FaPhone /> +91 8468005089
               </span>
             </div>
 
             <div className="ft-ci">
-              <FaPhone />
-              <span>+91 81760 01454</span>
-            </div>
-
-            <div className="ft-ci">
-              <FaPhone />
-              <span>+91 81760 01455</span>
-            </div>
-
-            <div className="ft-ci">
-              <FaPhone />
-              <span>+91 81760 01456</span>
-            </div>
-
-            <div className="ft-ci">
               <FaEnvelope />
-              <span>kgiclko@gmail.com</span>
+              <span>kinggeorgeschool01@gmail.com</span>
             </div>
           </div>
 
@@ -505,18 +429,6 @@ const Contact = () => {
               <FaFileAlt />
 
               <a
-                href="/assets/images/props.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Prospectus
-              </a>
-            </div>
-
-            <div className="ft-ci">
-              <FaFileAlt />
-
-              <a
                 href="/assets/images/aadmin.pdf"
                 target="_blank"
                 rel="noreferrer"
@@ -529,16 +441,7 @@ const Contact = () => {
 
         {/* FOOTER BOTTOM */}
         <div className="ft-bot">
-          <p>
-            Copyright 2026 KGS. All Rights Reserved. | Design & Developed by{" "}
-            <a
-              href="https://www.globalhorizoninfotech.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GHI
-            </a>
-          </p>
+          <p>Copyright 2026 KGS. All Rights Reserved.</p>
 
           <div className="socials">
             {socialLinks.map((item, index) => (
@@ -558,7 +461,7 @@ const Contact = () => {
 
       {/* WHATSAPP */}
       <a
-        href="https://wa.me/918176001454"
+        href="https://wa.me/918707710161"
         target="_blank"
         rel="noreferrer"
         className="wa"

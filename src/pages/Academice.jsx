@@ -21,7 +21,7 @@ import {
   FaTwitter,
   FaYoutube,
   FaWhatsapp,
-  FaPaperPlane
+  FaPaperPlane,
 } from "react-icons/fa";
 
 const features = [
@@ -94,23 +94,25 @@ const Academic = () => {
         <div className="topbar-inner">
           <div className="topbar-left">
             <span>
-              <FaPhone /> +91 81760 01454
+              <FaPhone /> +91 9214010108
+            </span>
+            <span>
+              <FaPhone /> +91 9454433180
+            </span>
+            <span>
+              <FaPhone /> +91 8468005089
             </span>
 
             <span>
-              <FaEnvelope /> kgiclko@gmail.com
+              <FaEnvelope /> kinggeorgeschool01@gmail.com
             </span>
 
             <span>
-              <FaMapMarkerAlt /> Chinhat · Barabanki · Dewa Road
+              <FaMapMarkerAlt /> GP Bhawan BR Dubey Enclave near Telco , Lucknow
             </span>
           </div>
 
           <div className="topbar-right">
-            <a href="/assets/images/props.pdf" target="_blank" rel="noreferrer">
-              <FaDownload /> Prospectus
-            </a>
-
             <a
               href="/assets/images/aadmin.pdf"
               target="_blank"
@@ -132,12 +134,12 @@ const Academic = () => {
               <div className="name">King George School</div>
 
               <div className="tagline">
-                Chinhat · Barabanki · Dewa Road, Lucknow
+                GP Bhawan BR Dubey Enclave near Telco , Lucknow
               </div>
             </div>
           </Link>
 
-             <ul className="nav-menu">
+          <ul className="nav-menu">
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
@@ -156,18 +158,6 @@ const Academic = () => {
 
             <li>
               <NavLink to="/contact">Contact Us</NavLink>
-            </li>
-
-            <li>
-              <a
-                href="/assets/images/props.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="nav-cta"
-              >
-                <FaDownload />
-                Prospectus
-              </a>
             </li>
           </ul>
 
@@ -188,15 +178,6 @@ const Academic = () => {
         <Link to="/academic">Academic</Link>
         <Link to="/gallery">Gallery</Link>
         <Link to="/contact">Contact Us</Link>
-
-        <a
-          href="/assets/images/props.pdf"
-          target="_blank"
-          rel="noreferrer"
-          className="mob-prospectus"
-        >
-          ⬇️ Download Prospectus
-        </a>
       </div>
 
       {/* HERO */}
@@ -224,17 +205,16 @@ const Academic = () => {
               </h2>
 
               <p className="para">
-                King George School is committed to holistic education,
-                blending academics, discipline, and values to nurture confident
-                learners.
+                King George School is committed to holistic education, blending
+                academics, discipline, and values to nurture confident learners.
               </p>
 
               <h3 className="mini-title">A Tradition of Quality Education</h3>
 
               <p className="para">
-                At King George School, we focus on academic excellence
-                through structured curriculum, experienced faculty, and
-                student-centric teaching methods.
+                At King George School, we focus on academic excellence through
+                structured curriculum, experienced faculty, and student-centric
+                teaching methods.
               </p>
 
               <ul className="checks">
@@ -401,7 +381,7 @@ const Academic = () => {
 
             <p className="ft-addr">
               <FaMapMarkerAlt />
-              Behind Chinhat Cold Storage, Prembagh, Chinhat, Lucknow, UP 226028
+              GP Bhawan BR Dubey Enclave near Telco , Lucknow
             </p>
           </div>
 
@@ -451,29 +431,18 @@ const Academic = () => {
 
             <div className="ft-ci">
               <FaMapMarkerAlt />
+              <span>GP Bhawan BR Dubey Enclave near Telco , Lucknow</span>
+            </div>
+            <div className="ft-ci">
               <span>
-                Behind Chinhat Cold Storage, Prembagh, Chinhat, Lucknow 226028
+                <FaPhone /> +91 9214010108, <FaPhone /> +91 9454433180,{" "}
+                <FaPhone /> +91 8468005089
               </span>
             </div>
 
             <div className="ft-ci">
-              <FaPhone />
-              <span>+91 81760 01454</span>
-            </div>
-
-            <div className="ft-ci">
-              <FaPhone />
-              <span>+91 81760 01455</span>
-            </div>
-
-            <div className="ft-ci">
-              <FaPhone />
-              <span>+91 81760 01456</span>
-            </div>
-
-            <div className="ft-ci">
               <FaEnvelope />
-              <span>kgiclko@gmail.com</span>
+              <span>kinggeorgeschool01@gmail.com</span>
             </div>
           </div>
 
@@ -487,18 +456,6 @@ const Academic = () => {
             </div>
 
             <h4 className="ft-h mtop">Download</h4>
-
-            <div className="ft-ci">
-              <FaFileAlt />
-
-              <a
-                href="/assets/images/props.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Prospectus
-              </a>
-            </div>
 
             <div className="ft-ci">
               <FaFileAlt />
@@ -548,7 +505,7 @@ const Academic = () => {
 
       {/* WHATSAPP */}
       <a
-        href="https://wa.me/918176001454"
+        href="https://wa.me/918707710161"
         target="_blank"
         rel="noreferrer"
         className="wa"
