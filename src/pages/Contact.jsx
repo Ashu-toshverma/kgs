@@ -11,7 +11,6 @@ import {
   FaBars,
   FaTimes,
   FaPaperPlane,
-  FaGlobe,
   FaAngleRight,
   FaFacebookF,
   FaInstagram,

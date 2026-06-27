@@ -6,7 +6,6 @@ import {
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
-  FaDownload,
   FaFileAlt,
   FaBars,
   FaTimes,
