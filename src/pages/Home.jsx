@@ -44,7 +44,7 @@ const slides = [
     desc: "Discover excellence through quality education, strong values, and a nurturing environment that supports students' academic and personal growth.",
     badges: [
       { icon: <FaGraduationCap />, text: "Est. 1921" },
-      { icon: <FaUsers />, text: "5000+ Students" },
+      { icon: <FaUsers />, text: "500+ Students" },
       //   { icon: <FaMapMarkerAlt />, text: "3 Campuses" },
     ],
   },
